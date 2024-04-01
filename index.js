@@ -1,5 +1,5 @@
 const _ = require('lodash');
-const users = require('../lodash-demo/data/users2.json');
+const users = require('./data/users2.json');
 
 // filter
 // const user = _.filter(users, (u) => u.gender === 'male');
