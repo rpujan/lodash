@@ -14,4 +14,9 @@ let truncatedUserDetail = [];
 for(let i = 0; i < users.length; i++)
 	truncatedUserDetail.push({name: users[i].name, age: users[i].age, eyeColor: users[i].eyeColor});
 
-console.log(truncatedUserDetail);
+// console.log(truncatedUserDetail);
+
+// partition
+let partionedData = _.partition(users, ['gender', 'male']);
+
+//console.log(partionedData);
